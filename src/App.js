@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { FaUser, FaCogs, FaCode, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="mainSec">
+      <nav className="navBar">
+        <p className="navName">@sumanThakur</p>
+        <div className="navButtons">
+          <a href=""><FaUser class="navIcon"/> about</a>
+          <a href=""><FaCogs class="navIcon"/> services</a>
+          <a href=""><FaCode class="navIcon"/> projects</a>
+          <a href=""><FaEnvelope class="navIcon"/> contact</a>
+          <a href=""><FaFileAlt class="navIcon"/> resume</a>
+        </div>
+      </nav>
+    </section>
   );
 }
 

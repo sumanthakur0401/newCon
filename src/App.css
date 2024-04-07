@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainSec{
+  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navBar{
+  position: fixed;
+  background-color: #e4eef0b2;
+  width: 50%;
+  height: 40px;
+  margin-top:70px;
+  border-radius: 10px;
+  display: flex;
+  padding: 0px 15px;
+  justify-content: space-between;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navName{
+  color: #5ED5F3;
+  font-size: 12px;
+  font-weight: 400;
+}
+.navButtons{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.navIcon{
+  margin: 0px 6px;
+}
+.navButtons a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12px;
+  color: #D64090;
+  transition: .2s ease;
+}
+.navButtons a:hover{
+  color: #5ED5F3;
 }
