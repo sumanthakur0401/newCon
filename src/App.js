@@ -14,6 +14,16 @@ function App() {
           <a href=""><FaFileAlt class="navIcon"/> resume</a>
         </div>
       </nav>
+
+      <section className="allSec">
+        <div className="aboutDiv">
+            <div class="helloText">Hello, I am</div>
+            <div class="nameText">Suman Thakur</div>
+        </div>
+        <div className="serviceDiv"></div>
+        <div className="projectDiv"></div>
+        <div className="contactDiv"></div>
+      </section>
     </section>
   );
 }
